@@ -1,0 +1,157 @@
+*{
+    padding:0em;
+    margin:0em;
+}
+body{
+   background-image: url('../images/fondo/fondo4.jpg');
+   color:black;
+}
+a:link { 
+text-decoration:none; 
+} 
+
+.color{
+    background-color:#4cae4c;
+}
+
+p{
+    font-size: 1.2em;
+}
+.margen1{
+    margin-right:  5em;
+}
+.margen2{
+    margin-left: 5em;
+}
+.caret-up {
+    width: 0; 
+    height: 0;
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+footer{
+    height: auto;
+    background-color:#4cae4c;
+    margin:auto;
+    padding-left:3em;
+    padding-right:3em;
+    font-size:1em;
+    font-family: Arial,Helvetica,sans-serif;
+    text-align: center;
+    color:black;
+}
+.footerTex{
+    margin-bottom: 20px;
+    font-style: normal;
+    line-height: 1.42857143;
+}
+.boton{
+    margin-top:2em;
+}
+
+/*Formulario*/
+
+input[type="submit"]{
+   display: inline;
+   margin-top:1em;
+   padding:0.5em;
+   background-color:crimson;
+   color:white;
+}
+input[type="reset"]{
+   display: inline;
+   margin-top:1em;
+   padding:0.5em;
+   background-color:goldenrod;
+   color:black;
+}
+label{
+    font-size: 1.5em;
+    color:green;
+}
+#map{
+    width:100%;
+    height: 550px;
+    margin:auto;
+    margin-top:1em;
+    color:black;
+    -moz-border-radius-topleft: 28px;
+    -webkit-border-top-left-radius: 28px;
+     border-top-left-radius: 28px;
+    -moz-border-radius-topright: 28px;
+    -webkit-border-top-right-radius: 28px;
+    border-top-right-radius: 28px;
+    -moz-border-radius-bottomright: 29px;
+    -webkit-border-bottom-right-radius: 29px;
+    border-bottom-right-radius: 29px;
+    -moz-border-radius-bottomleft: 29px;
+    -webkit-border-bottom-left-radius: 29px;
+    border-bottom-left-radius: 29px;
+  
+   
+   border:2px solid #3c9632;
+   
+}
+.prety{
+   font-family: 'Pacifico', cursive;
+   font-size: 2em;
+   color:orangered;
+}
+.texto_cabecera{
+   font-family: 'Pacifico', cursive;
+   font-size: 2em;
+   color:crimson;
+   padding-bottom: 1em;
+   padding-top: 1em;
+}
+.obligatoria{
+    color:#c9302c;
+    font-size: 1.5em;
+}
+/*.img_center{
+    width: 100%;
+    height: auto;
+    padding-left: 12em;
+}*/
+.text_recetas{
+    font-size: 1.5em;
+    line-height: 2em;
+}
+
+/* Menuuuuuuuuuuu*/
+.navbar-inverse { background-color: #222222}
+.navbar-inverse .navbar-nav>.active>a:hover,.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { background-color: #9E320B}
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { background-color: #0A8F17}
+.dropdown-menu { background-color: #FFFFFF}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { background-color: #0A8F17}
+.navbar-inverse { background-image: none; }
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { background-image: none; }
+.navbar-inverse { border-color: #080808}
+.navbar-inverse .navbar-brand { color: #ED8F13}
+.navbar-inverse .navbar-brand:hover { color: #FFFFFF}
+.navbar-inverse .navbar-nav>li>a { color: #FFFFFF}
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { color: #FFFFFF}
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { color: #FFFFFF}
+.navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus { color: #FFFFFF}
+.dropdown-menu>li>a { color: #000000}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { color: #FFFFFF}
+.navbar-inverse .navbar-nav>.dropdown>a .caret { border-top-color: #FFFFFF}
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret { border-top-color: #808080}
+.navbar-inverse .navbar-nav>.dropdown>a .caret { border-bottom-color: #FFFFFF}
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret { border-bottom-color: #808080}
+
+/* Escala Grises*/
+
+.gris img:hover {
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+    -webkit-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    
+}
+.gris img {
+   filter: none; /* IE6-9 */
+  -webkit-filter: grayscale(0); /* Google Chrome, Safari 6+ & Opera 15+ */
+}

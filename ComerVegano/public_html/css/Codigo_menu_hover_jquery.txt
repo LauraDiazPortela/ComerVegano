@@ -1,0 +1,16 @@
+<script>
+        // Añade el efecto Hover al los menús desplegables de Bootstrap    
+        $(function(){
+            $(".dropdown").hover(            
+                    function() {
+                        $('.dropdown-menu', this).fadeIn("fast");
+                        $(this).toggleClass('open');
+                        $('b', this).toggleClass("caret caret-up");                
+                    },
+                    function() {
+                        $('.dropdown-menu', this).fadeOut("fast");
+                        $(this).toggleClass('open');
+                        $('b', this).toggleClass("caret caret-up");                
+                    });
+            });
+</script>
